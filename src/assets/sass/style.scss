@@ -1,0 +1,45 @@
+@import "vars";
+@import "mixins";
+
+body{
+    font-size: 12px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left :auto;
+    @media (min-width: 1366px){
+        max-width: 1300px;
+        }
+    @media (max-width: 1280px){
+    max-width: 1200px;
+    }
+
+    @media (max-width: 992px){
+    max-width: 960px;
+    }
+
+    @media (max-width: 768px){
+      max-width: 720px; 
+    }
+
+    @media (max-width: 668px){
+        max-width: 620px; 
+      }
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* Blocks  */
+
+@import "blocks/slider";
+@import "blocks/about";
+@import "blocks/for-bussines";
+@import "blocks/for-citizens";
+@import "blocks/header";
+@import "blocks/info";
+@import "vendor/owl.carousel";
+@import "vendor/owl.theme.default";

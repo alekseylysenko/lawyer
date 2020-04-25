@@ -1,0 +1,22 @@
+.size-slider{
+	min-height: 500px;
+}
+.row__dots{
+	margin-top: 18px;
+	display: flex;
+	justify-content: center;
+}
+.thumb{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #22262F;
+	margin-right: 20px;
+	margin-left: 20px;	
+	cursor: pointer;
+}
+.thumb:hover{
+	color:  #747373;
+}

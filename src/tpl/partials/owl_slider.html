@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row__dots">
+        <div class="thumb">About</div>
+        <div class="thumb">Для бизнесса</div>
+        <div class="thumb">Для граждан</div>
+        </div>  <!-- class="row__dots -->
+
+    <div class="owl-carousel owl-theme ">
+        <div class="about__block size-slider"> 
+                {{>about}}
+            </div> <!-- about__block -->
+        <div class="for-bussines size-slider">  
+                {{>for-bussines}}
+            </div> <!-- for-bussines -->
+        <div class="for-citizens size-slider"> 
+                {{>for-citizens}}
+            </div> <!-- for-citizens -->
+ 
+    </div> <!-- owl-carousel owl-theme -->
+</div> <!-- container -->
+
+<script>$(document).ready(function(){
+    $('.owl-carousel').owlCarousel();
+    });</script>
